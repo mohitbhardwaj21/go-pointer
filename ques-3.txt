@@ -1,0 +1,21 @@
+What will be the output of following code?
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var c *int
+	var d *string
+	fmt.Println(*c)
+	fmt.Println(*d)
+}
+
+
+option 1: 0, blank space
+opiton 2: 0, error
+option 3: garbage value, garbage value 
+option 4: error, error

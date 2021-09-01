@@ -1,0 +1,20 @@
+What will be output of the following code?
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	a := 20
+	d := 20
+	var b *int = &a
+	var c *int = &d
+	fmt.Println(b == c)
+}
+
+Option 1: true 
+Option 2: false <<correct>> 
+Option 3: Error : invalid operation 
+Option 4: No output

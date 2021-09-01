@@ -1,0 +1,21 @@
+What will be output of following code?
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var b int = 20
+    a:=30
+	var d *int = &bs
+	*d = *(&a)
+	fmt.Println(b)
+}
+
+
+Option 1: 20
+Option 2: Error: invalid operation
+Option 3: 30 <<correct>>
+Option 4: Address of variable a

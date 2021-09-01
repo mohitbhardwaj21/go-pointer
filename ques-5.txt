@@ -1,0 +1,6 @@
+Pick the odd one out:
+
+a. By Deafult uninitalized pointer have nil value
+b. Comparison is not allowed on two pointer <<correct>>
+c. & is used to extract the address 
+d. A pointer can also point to another pointer

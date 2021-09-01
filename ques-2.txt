@@ -1,0 +1,21 @@
+What will be the output of following code?
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	c := new(int)
+	d := new(string)
+	fmt.Println(*c)
+	fmt.Println(*d)
+}
+
+
+Option 1: error, error
+Option 2: 0, error
+Option 3: 0, blank space  correct
+Option 4. garbage value, garbage value
